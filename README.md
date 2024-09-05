@@ -16,8 +16,8 @@ This project is a WhatsApp bot that analyzes incoming messages and images to det
 - Node.js
 - npm or yarn
 - Twilio account
-- Replicate API token
-- OpenAI API key
+- [Replicate API token](https://replicate.com/)
+- [OpenAI API key](https://platform.openai.com/)
 
 ## Installation
 
@@ -50,7 +50,7 @@ This project is a WhatsApp bot that analyzes incoming messages and images to det
    npm start
    ```
 
-2. Set up your Twilio WhatsApp Sandbox to forward messages to your server's `/whatsapp` endpoint.
+2. [Set up your Twilio WhatsApp Sandbox](https://www.twilio.com/docs/whatsapp/sandbox) to forward messages to your server's `/whatsapp` endpoint.
 
 3. Send a message or image to your Twilio WhatsApp number to test the bot.
 

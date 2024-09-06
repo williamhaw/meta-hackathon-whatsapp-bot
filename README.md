@@ -50,7 +50,7 @@ This project is a WhatsApp bot that analyzes incoming messages and images to det
    npm start
    ```
 
-2. [Set up your Twilio WhatsApp Sandbox](https://www.twilio.com/docs/whatsapp/sandbox) to forward messages to your server's `/whatsapp` endpoint.
+2. [Set up your Twilio WhatsApp Sandbox](https://www.twilio.com/docs/whatsapp/sandbox) to forward messages to your server's `/whatsapp` endpoint. If running locally, you can use [ngrok](https://ngrok.com/docs/getting-started/) to expose your local server to the internet.
 
 3. Send a message or image to your Twilio WhatsApp number to test the bot.
 

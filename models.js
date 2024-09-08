@@ -87,7 +87,7 @@ const runLlama3 = async (prompt) => {
   };
 
   const botResponse = await replicateClient.run(
-    "meta/meta-llama-3-70b-instruct",
+    "meta/meta-llama-3.1-405b-instruct",
     { input }
   );
   const formattedResponse = botResponse.join("");

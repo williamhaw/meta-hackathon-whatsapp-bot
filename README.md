@@ -6,7 +6,7 @@ This project is a WhatsApp bot that analyzes incoming messages and images to det
 
 - Analyzes both text messages and images sent via WhatsApp
 - Utilizes GPT-4 and LLaVA for image analysis
-- Uses GPT-4 and LLaMA 3 for text analysis
+- Uses GPT-4 and LLaMA 3.1 405b Instruct for text analysis
 - Supports multiple languages
 - Responds with a detailed explanation about potential scams
 - Easy to set up and deploy
@@ -39,7 +39,7 @@ This project is a WhatsApp bot that analyzes incoming messages and images to det
    TWILIO_AUTH_TOKEN=your_twilio_auth_token
    OPENAI_API_KEY=your_openai_api_key
    IMAGE_MODEL=llava
-   TEXT_MODEL=llama
+   TEXT_MODEL=llama3
    PORT=8088
    ```
 
